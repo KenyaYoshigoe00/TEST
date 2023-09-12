@@ -1,0 +1,237 @@
+body{
+  margin: 0px;
+}
+.FirstView{
+  position: relative;
+}
+@media screen and (min-width:767px){
+.FirstView{
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  background-position: center;}
+}
+@media screen and (max-width: 767px){
+.FirstView-container{
+  padding-top: 10px}
+}
+@media screen and (max-width: 767px){
+  .FirstView_main-image--sp{
+    display: block;}
+}
+@media screen and (min-width:767px){
+.FirstView_main-image--sp{
+  display: none;}
+}
+.FirstView_main-image{
+  width: 100%;
+}
+.Header{
+  width:100%;
+  padding-top: 20px;
+}
+.HeaderContainer{
+  margin: 0 36px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.HeaderLogo_image{
+  height: 20px;
+  width: auto;
+}
+@media screen and (max-width: 1080px){
+.hamburger{
+  cursor: pointer;
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 21px;}
+}
+@media screen and (max-width: 1080px){
+.hamburger-line:first-child{
+  top: 0;}
+}
+@media screen and (max-width: 1080px){
+.hamburger-line:last-child{
+  top: 100%;}
+}
+@media screen and (max-width: 1080px){
+.hamburger-line{
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  transform: translate(0,-50%);
+  border-radius: 10px;
+  transition: top .2s,transform .2s,opacity .3s;}
+}
+@media screen and (max-width: 1080px){
+.HeaderNav{display: none}
+}
+li{
+  list-style: none;
+}
+@media screen and (min-width: 1080px){
+.HeaderNav{
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;}
+}
+.HeaderNavListItem{
+  margin-left: 20px;
+}
+.HeaderNavListItem_link>span{
+  display: block;
+  text-align: center;
+}
+@media screen and (min-width:767px){
+.FirstView-container{
+  padding-left: 200px;}
+}
+@media screen and (min-width:767px){
+.FirstViewContent{
+  margin-bottom: 40px;
+  width: fit-content;}
+}
+@media screen and (max-width:767px){
+.FirstViewContent{
+    margin-top: -50%;
+    padding-left: 20px;
+    padding-right: 20px; }
+}
+@media screen and (max-width:767px){
+.FirstViewContent2{
+    padding-left: 20px;
+    padding-right: 20px;}
+}
+.FirstViewContent-title{
+  text-align: center;
+  font-family: 'Lato',sans-serif;
+}
+.FirstViewContent_images{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.FirstViewContent-buttons{
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width:767px){
+.FirstViewContent-buttons{
+  flex-direction: column;}
+}
+@media screen and (max-width:767px){
+.FirstViewContent-buttons a:last-child {
+  display: none;}
+  }
+.font-black{
+  color: #000000;
+}
+.font-white{
+  color: #FFFFFF;
+}
+.font-silver{
+  color: #C0C0C0;
+}
+.font-bold{
+  font-weight: bold;
+}
+.font-size1::first-line{
+  font-size: 14px;
+}
+.font-size2{
+  font-size: 38px;
+}
+@media screen and (max-width: 767px){
+  .font-size2{
+    font-size: 25px;}
+}
+.font-size3{
+  font-size: 12px;
+}
+.font4{
+  font-size: 38px;
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-weight: 900;
+}
+.block{
+  display: block;
+}
+.inline-block{
+  display: inline-block;
+}
+.none{
+  text-decoration: none;
+}
+.back-orange{
+  background-color: #FF9900;
+}
+.back-orange:hover{
+  background-color: #FFCC66;
+}
+.daen{
+  width: 120px;
+  height: 20px;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.daen2{
+  border-radius: 50px;
+  padding: 20px 40px;
+  text-align: center;
+}
+.daen3{
+  border:solid;
+  border-radius: 50px;
+  padding: 20px 40px;
+  border-color: #DDDDDD;
+}
+.text-center{
+  text-align: center;
+}
+.gazoumaru1{
+  padding: 25px 0 25px 25px;
+}
+@media screen and (max-width: 767px){
+.gazoumaru1{
+    width: 27.5%;}
+}
+@media screen and (max-width: 767px){
+.gazoumaru2{
+  width: 40%;}
+}
+.gazoumaru3{
+  padding: 25px 25px 25px 0;
+}
+@media screen and (max-width: 767px){
+.gazoumaru3{
+  width: 27.5%;}
+}
+.parent2{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+@media screen and (min-width:767px){
+.yoko{
+  display: flex;
+  padding-left: 200px;
+  align-items: center;}
+}
+@media screen and (max-width:767px){
+.yoko{
+  padding-left: 20px;
+  padding-right: 20px;}
+}
+.AboutWrapper{
+  background-color: #f79214;
+  padding: 30px 0;
+}
