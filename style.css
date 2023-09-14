@@ -168,6 +168,9 @@ li{
 .none{
   text-decoration: none;
 }
+.hover-gray:hover{
+  color: #696969;
+}
 .back-orange{
   background-color: #FF9900;
 }
